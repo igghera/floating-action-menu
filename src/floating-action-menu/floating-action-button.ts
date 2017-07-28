@@ -1,5 +1,5 @@
-export class FloatingActionButton {
+export interface FloatingActionButton {
   iconClass: string;
   label?: string;
-  onClick: () => void = () => false;
+  onClick: () => void;
 }
