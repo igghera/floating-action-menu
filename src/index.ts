@@ -1,4 +1,3 @@
-import {FloatingActionButton} from './floating-action-menu/floating-action-button';
 import {NgModule, ModuleWithProviders} from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {FloatingActionMenuComponent} from './floating-action-menu/floating-action-menu.component';
@@ -10,13 +9,11 @@ import {FloatingActionButtonComponent} from './floating-action-menu/floating-act
   ],
   declarations: [
       FloatingActionMenuComponent,
-      FloatingActionButtonComponent,
-      FloatingActionButton
+      FloatingActionButtonComponent
   ],
   exports: [
       FloatingActionMenuComponent,
-      FloatingActionButtonComponent,
-      FloatingActionButton
+      FloatingActionButtonComponent
   ]
 })
 export class FloatingActionMenuModule {
