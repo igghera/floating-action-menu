@@ -9,9 +9,7 @@
     "name": "Shalva Jashiashvili",
     "email": "sh.jashiashvili@gmail.com"
   },
-  "keywords": [
-    "angular"
-  ],
+  "keywords": ["angular"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/unixxxx/floating-action-menu/issues"
