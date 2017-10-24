@@ -1,11 +1,12 @@
 {
-  "name": "ng2-floating-action-menu",
-  "version": "0.2.3",
+  "name": "ngx-floating-action-menu",
+  "version": "0.2.4",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n ng2-floating-action-menu -d docs --hideGenerator",
+    "docs:build":
+      "compodoc -p tsconfig.json -n ng2-floating-action-menu -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
@@ -13,18 +14,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/unixxxx/floating-action-menu"
+    "url": "https://github.com/igghera/floating-action-menu"
   },
   "author": {
-    "name": "Shalva Jashiashvili",
-    "email": "sh.jashiashvili@gmail.com"
+    "name": "Andrea Gherardi",
+    "email": "a.gherardi85@gmail.com"
   },
-  "keywords": [
-    "angular"
-  ],
+  "keywords": ["angular", "floating", "action", "button", "menu", "material"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/unixxxx/floating-action-menu/issues"
+    "url": "https://github.com/igghera/floating-action-menu/issues"
   },
   "devDependencies": {
     "@angular/common": "^4.0.0",
